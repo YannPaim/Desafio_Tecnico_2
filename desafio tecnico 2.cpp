@@ -60,10 +60,10 @@ int main()
          std::cout<<"Claro vamos lá"<<endl;
          break;
     }
-      std::cout<<"pretende continuar ouvindo a história? (s ou n): " << endl;
-      std::cin >> simnao;
+      std::cout<<"para encerrar digite s: " << endl;
+      std::cin >> encerrar = 's';
       break;
-    } while (simnao = 's');
+    } while (encerrar = 's');
     cout<<"Eles continuam conversando por horas após fazer o registro de Shouya Ishida até se tornarem bons amigos e futuramente ajudar varias pessoas." << endl;
     return 0;
 }
